@@ -3,7 +3,7 @@ COVID 19 X-ray image classification
 
 102 COVID X-Ray images were acquired. 102 other viral and pnuemonia cases were chosen as well. 
 
-We provide the final models. As the trained weights are too large for this repo, we couldnt upload them directly to this Github repository. Please visit the following drive to access the images and trained weights.
+We provide the final models. As the trained weight set is quite large, we couldn't upload them directly to this Github repository. Please visit the following drive to access the images and trained weights.
 
 https://drive.google.com/drive/folders/1C-eCwjzW505YzZ72seiKywE9HWPg86r2?usp=sharing
 
