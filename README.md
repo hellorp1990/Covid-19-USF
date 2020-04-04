@@ -11,7 +11,7 @@ We created a model on all the data and tested  on an external (unseen) 20 COVID 
 
 We have provided the weights to create the snapshot ensemble of 7. Please use the software on your own dataset. 
 
- PLESE CONTACT US IF YOU HAVE ANY ADDITIONAL COVID X-RAY/CT scans. 
+ PLESE CONTACT US IF YOU HAVE ANY ADDITIONAL COVID X-RAY/CT scans. (rahulp@mail.usf.edu or lohall@mail.usf.edu)
 
 
 Disclaimer: 
