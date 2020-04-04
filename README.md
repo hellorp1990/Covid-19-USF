@@ -1,15 +1,15 @@
 # Covid-19-USF
 COVID 19 X-ray image classification
 
-102 COVID X-Ray images were chosen. 102 other viral and pnuemonia cases were chosen as well. 
+102 COVID X-Ray images were acquired. 102 other viral and pnuemonia cases were chosen as well. 
 
-We provided the final models. As the trained weights have large size, we couldnt upload them directly to Github repository. Please visit the following drive to access the images and trained weights.
+We provide the final models. As the trained weights are too large for this repo, we couldnt upload them directly to this Github repository. Please visit the following drive to access the images and trained weights.
 
 https://drive.google.com/drive/folders/1C-eCwjzW505YzZ72seiKywE9HWPg86r2?usp=sharing
 
-The models were tested finally on an external 20 COVID and 4171 other viral and pnuemonia cases.
+We created a model on all the data and tested  on an external (unseen) 20 COVID and 4171 other viral and pnuemonia cases.
 
-We have provided the weights to create the snapshot ensemble. Please use the software on your own dataset. 
+We have provided the weights to create the snapshot ensemble of 7. Please use the software on your own dataset. 
 
  PLESE CONTACT US IF YOU HAVE ANY ADDITIONAL COVID X-RAY/CT scans. 
 
