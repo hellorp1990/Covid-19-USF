@@ -55,6 +55,8 @@ img_width, img_height = 224,224
 hidden_dim=512
 
 train_data_dir = '/home/rahulp2/covid/fold1/train2'
+
+# you can put your images in a test folder: for us we have two folder: covid and pnuemonia. If the prediction of our model is >=0.5 then its a pnuemonia (other than covid), and if its <0.5 then its a covid case.
 test_data_dir = '/Users/rahulpaul/Desktop/covid_dataset/X-ray/final_test/test'
 
 nb_test_samples = 20
@@ -128,6 +130,8 @@ model.compile(loss='binary_crossentropy',
               optimizer=rms,
               metrics=['accuracy'])
 
+# if you want to train then you have to uncomment the following section
+
 '''
 filepath="weights2-improvement-{epoch:02d}-{val_acc:.2f}.hdf5"
 checkpoint = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
@@ -180,8 +184,9 @@ print(model.summary())
 scores = model.evaluate_generator(test_generator, 20)
 print("Accuracy = ", scores[1])
 
+#predicted values will be saved in a csv file.
 intermediate_output = model.predict_generator(test_generator,20,nb_worker=1, pickle_safe=True )
 
-#np.savetxt("C5.csv",intermediate_output, delimiter=",")
+np.savetxt("C5.csv",intermediate_output, delimiter=",")
 
 
